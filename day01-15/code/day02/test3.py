@@ -1,4 +1,4 @@
-def t3(year):
+def t3(year):	# 闰年判断 year % 4 == 0 and year % 100 != 0 or year % 400 == 0
 	if year % 4 != 0:
 		return False
 	else:
